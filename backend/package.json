@@ -1,9 +1,8 @@
 {
-  "name": "sick-fits-backend",
+  "name": "full-stack-app-backend",
   "version": "2.0.0",
   "private": true,
-  "author": "Wes Bos",
-  "license": "MIT",
+  "author": "Kodigo-Team",
   "scripts": {
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
