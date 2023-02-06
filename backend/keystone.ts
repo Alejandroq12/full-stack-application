@@ -42,12 +42,13 @@ export default withAuth(config({
     ui: {
         // show the UI only for people who pass this test
         isAccessAllowed: ({ session }) => {
-            console.log(session);
+            // console.log(session);
             return !!session?.data;
         },
     },
     session: withItemData(statelessSessions(sessionConfig), {
-        User: `id`,
+        // GraphQL Query
+        User: 'id name email',
     }),
   })
 );
