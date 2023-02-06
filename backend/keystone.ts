@@ -1,9 +1,9 @@
 import { createAuth } from '@keystone-next/auth';
 import { config, createSchema } from '@keystone-next/keystone/schema';
-// import {
-//   withItemData,
-//   statelessSessions,
-// } from '@keystone-next/keystone/session/dist/keystone.esm.js';
+import {
+  withItemData,
+  statelessSessions,
+} from '@keystone-next/keystone/session';
 import { permissionsList } from './schemas/fields';
 import { Role } from './schemas/Role';
 import { OrderItem } from './schemas/OrderItem';
