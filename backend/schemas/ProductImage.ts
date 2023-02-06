@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { text } from '@keystone-next/fields/dist/fields.cjs';
+import { relationship, text } from '@keystone-next/fields/dist/fields.cjs';
 import { list } from '@keystone-next/keystone/schema/dist/keystone.cjs';
 import { cloudinaryImage } from '@keystone-next/cloudinary/dist/cloudinary.cjs.js';
 
@@ -16,6 +16,12 @@ export const ProductImage = list({
             cloudinary,
             label: 'Source'
         }),
-        altText: text()
+        altText: text(),
+        product: relationship({ ref: 'Product.photo'})
+    },
+    ui: {
+        listView: {
+          initialColumns: ['image', 'altText', 'product'],
+        }
     }
 });
