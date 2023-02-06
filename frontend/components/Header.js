@@ -1,7 +1,14 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
     <header>
-      <p>I am the header</p>
+      <div className="bar">
+        <Link href="/">Here Logo</Link>
+      </div>
+      <div className="sub-bar">
+        <p>Search</p>
+      </div>
     </header>
   );
 }
