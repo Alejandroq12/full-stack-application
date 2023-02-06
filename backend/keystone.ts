@@ -1,3 +1,4 @@
+import { createAuth} from '@keystone-next/auth';
 import { User } from './schemas/User';
 import { config, createSchema } from '@keystone-next/keystone/schema/dist/keystone.cjs';
 import 'dotenv/config';
@@ -10,7 +11,17 @@ const sessionConfig = {
     secret: process.env.COOKIE_SECRET,
 };
 
-export default config({
+const { withAuth } = createAuth({
+  listKey: 'User',
+  identityField: 'email',
+  secretField: 'password',
+  initFirstItem: {
+    fields: ['name', 'email', 'password'],
+    // TODO: Add in inital roles here
+  }
+});
+
+export default withAuth(config({
     // @ts-ignore
     server: {
         cors: {
@@ -32,4 +43,4 @@ export default config({
         isAccessAllowed: () => true,
     },
     //TODO: Add session values here
-});
+}));
