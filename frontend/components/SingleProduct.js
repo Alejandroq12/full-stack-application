@@ -1,7 +1,12 @@
 import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
 import Head from 'next/head';
+import styled from 'styled-components';
 import DisplayError from './ErrorMessage';
+
+const ProductStyles = styled.div`
+  background: red;
+`;
 
 const SINGLE_ITEM_QUERY = gql`
   query SINGLE_ITEM_QUERY($id: ID!){
@@ -30,7 +35,7 @@ export default function SingleProduct({ id }) {
   if (error) return <DisplayError error={error} />;
   const { Product } = data;
   return (
-    <div>
+    <ProductStyles>
       <Head>
         <title>Store | {Product.name}</title>
       </Head>
@@ -42,6 +47,6 @@ export default function SingleProduct({ id }) {
         <h2>{Product.name}</h2>
         <p>{Product.description}</p>
       </div>
-    </div>
+    </ProductStyles>
   );
 }
