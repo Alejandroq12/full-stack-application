@@ -4,6 +4,7 @@ import useForm from '../lib/useForm';
 import Form from './styles/Form';
 import DisplayError from './ErrorMessage';
 import { ALL_PRODUCTS_QUERY } from './Products';
+import Router from 'next/router';
 
 const CREATE_PRODUCT_MUTATION = gql`
   mutation CREATE_PRODUCT_MUTATION(
@@ -49,10 +50,13 @@ export default function CreateProduct() {
     <Form
       onSubmit={async (e) => {
         e.preventDefault();
-        console.log(inputs);
         // submit the input fields to the backend:
-        await createProduct();
+        const res = await createProduct();
         clearForm();
+        // Go to that product's page!
+        Router.push({
+          pathname: `/product/${res.data.createProduct.id}`,
+        })
       }}
     >
       <DisplayError error={error} />
