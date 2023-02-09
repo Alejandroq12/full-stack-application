@@ -8,17 +8,22 @@ export default function CreateProduct() {
     price: 34234,
     description: 'These are the best shoes!',
   });
-
   return (
-    <Form>
+    <Form
+      onSubmit={(e) => {
+        e.preventDefault();
+        console.log(inputs);
+      }}
+    >
       <fieldset>
         <label htmlFor="image">
           Image
-          <input
+          <input 
+            required
             type="file"
             id="image"
             name="image"
-            onChange={handleChange}               
+            onChange={handleChange}
           />
         </label>
         <label htmlFor="name">
