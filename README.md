@@ -1,4 +1,4 @@
-<a name="readme-top">full-stack-application</a>
+<a name="readme-top">Full Stack Application</a>
 
 <!--
 HOW TO USE:
@@ -82,14 +82,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
 
