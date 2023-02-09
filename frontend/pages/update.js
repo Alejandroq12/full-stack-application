@@ -1,9 +1,10 @@
 import UpdateProduct from '../components/UpdateProduct';
 
-export default function SellPage() {
+export default function UpdatePage({ query }) {
+  console.log(query);
   return (
     <div>
-      <UpdateProduct />
+      <UpdateProduct id={query.id} />
     </div>
   );
 }
