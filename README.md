@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Full Stack App</b></h3>
 
 </div>
 
@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is a full stack web aplication
 
 **[your_project__name]** is a...
 
