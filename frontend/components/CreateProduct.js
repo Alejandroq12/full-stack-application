@@ -36,6 +36,7 @@ export default function CreateProduct() {
     price: 34234,
     description: 'These are the best shoes!',
   });
+  // This are reactive variables which will be updated when the mutation is completed
   const [createProduct, { loading, error, data }] = useMutation(
     CREATE_PRODUCT_MUTATION,
     {
@@ -48,8 +49,8 @@ export default function CreateProduct() {
         e.preventDefault();
         console.log(inputs);
         // submit the input fields to the backend:
-        const res = await createProduct();
-        console.log(res);
+        await createProduct();
+        clearForm();
       }}
     >
       <DisplayError error={error} />
