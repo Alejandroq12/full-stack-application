@@ -5,7 +5,17 @@ import styled from 'styled-components';
 import DisplayError from './ErrorMessage';
 
 const ProductStyles = styled.div`
-  background: red;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  max-width: var(--maxWidth);
+  justify-content: center;
+  align-items: top;
+  gap: 2rem;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
 `;
 
 const SINGLE_ITEM_QUERY = gql`
