@@ -152,9 +152,9 @@ Go to folder /frontend and run:
 ```
 
 ### Run tests
-
-To run tests, run the following command:
-
+```
+They will be available soon!!
+```
 <!--
 Example command:
 
@@ -165,8 +165,9 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
-
+```
+It will be available soon!!
+```
 <!--
 Example:
 
