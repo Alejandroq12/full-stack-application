@@ -110,13 +110,13 @@ In order to run this project you need:
 Node.js version 16.9.0
 React 17.0
 
-<!--
 Example command:
-
-```sh
- gem install rails
+Go to folder /backend and run
 ```
- -->
+ npm install
+ npm run dev
+
+```
 
 ### Setup
 
