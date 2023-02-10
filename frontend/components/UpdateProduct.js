@@ -1,5 +1,6 @@
 import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
+import { useMutation } from '@apollo/client';
 
 const SINGLE_PRODUCT_QUERY = gql`
   query SINGLE_PRODUCT_QUERY($id: ID!) {
@@ -36,7 +37,14 @@ export default function UpdateProduct({ id }) {
     variables: { id },
   });
   // 2. We need to get the mutation to update the product
-  const 
+  const [
+    updateProduct,
+    { data: updateData, error: updateError, loading: updateLoading },
+  ] = useMutation(UPDATE_PRODUCT_MUTATION, {
+    variables: {
+      id,
+    },
+  });
   // 3. We need the form to handle the updates
   return <p>Update {id}!</p>;
 }
