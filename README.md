@@ -63,7 +63,6 @@
     <li><a href="https://graphql.org/">GraphQL</a></li>
     <li><a href="https://nodejs.org/en/">Node.js</a></li>
     <li><a href="https://keystonejs.com/">Keystone.js</a></li>
-
   </ul>
 </details>
 
@@ -80,7 +79,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
+- **[Charging Credit Card with Stripe]**
 - **[key_feature_2]**
 - **[key_feature_3]**
 
