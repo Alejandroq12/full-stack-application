@@ -109,7 +109,6 @@ In order to run this project you need:
 
 ```
 Node.js version 16.9.0
-
 React 17.0
 ```
 
@@ -121,20 +120,6 @@ Clone this repository to your desired folder:
 Using Https:
   https://github.com/Alejandroq12/full-stack-application.git
 ```
-
-
-Go to folder /backend and run:
-```
- npm install
- npm run dev
-```
-
-Go to folder /frontend and run:
-```
- npm install
- npm run dev
-```
-
 
 ### Install
 
