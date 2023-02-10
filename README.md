@@ -99,13 +99,16 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> How to run this project
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+Node.js version 16.9.0
+React 17.0
 
 <!--
 Example command:
