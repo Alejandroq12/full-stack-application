@@ -111,11 +111,17 @@ Node.js version 16.9.0
 React 17.0
 
 Example command:
-Go to folder /backend and run
+
+Go to folder /backend and run:
 ```
  npm install
  npm run dev
+```
 
+Go to folder /frontend and run:
+```
+ npm install
+ npm run dev
 ```
 
 ### Setup
