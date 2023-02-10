@@ -79,9 +79,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Charging Credit Card with Stripe]**
-- **[Performing Authentication]**
-- **[key_feature_3]**
+- **[Charging credit card with Stripe]**
+- **[Performing authentication]**
+- **[Next.js for server side rendering]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
