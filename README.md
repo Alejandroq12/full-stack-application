@@ -236,7 +236,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Hello, there..
 
-If you like this project please give me a star
+If you like this project please give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,9 +256,9 @@ I would like to thank Kodigo because this boot camp is challenging me to learn p
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Do I have to use Node.js version?]**
 
-  - [Answer_1]
+  - [Yes, because some dpendencies are not compatible with recent versions.]
 
 - **[Question_2]**
 
