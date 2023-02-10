@@ -59,6 +59,8 @@
   <summary>Server</summary>
   <ul>
     <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://graphql.org/">GraphQL</a></li>
+    
   </ul>
 </details>
 
