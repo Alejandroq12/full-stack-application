@@ -89,7 +89,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> It will be vailable soon!!!!!!.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
