@@ -107,10 +107,11 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+```
 Node.js version 16.9.0
 
 React 17.0
-
+```
 
 ### Setup
 
