@@ -52,6 +52,7 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript</a></li>
+    <li><a href="https://www.apollographql.com/docs/react/">Apollo Client</a></li>
   </ul>
 </details>
 
