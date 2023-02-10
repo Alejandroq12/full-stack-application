@@ -258,11 +258,11 @@ I would like to thank Kodigo because this boot camp is challenging me to learn p
 
 - **[Do I have to use Node.js version?]**
 
-  - [Yes, because some dpendencies are not compatible with recent versions.]
+  - [Yes, because some dependencies are not compatible with recent versions.]
 
-- **[Question_2]**
+- **[Do I have to configure MongoDB?]**
 
-  - [Answer_2]
+  - [Yes, specially if you want to have your data on the cloud. But yo can also use Mongo Compass in case you want to have you data locally.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
