@@ -34,11 +34,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 La Tiendita <a name="about-project"></a>
 
 > This is a full stack web aplication
 
-**[La Tiendita]** is a...
+**[La Tiendita]** is an online store in which you can buy or sell products.
 
 ## 🛠 Built With <a name="built-with"></a>
 
