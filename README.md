@@ -128,39 +128,39 @@ Go to folder /frontend and run:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
+```
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
+Go to folder /backend and run:
 ```
---->
+ npm install
+ npm run dev
+```
+
+Go to folder /frontend and run:
+```
+ npm install
+ npm run dev
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
+Go to folder /backend and run:
 ```
---->
+ npm run dev
+```
+
+Go to folder /frontend and run:
+```
+ npm run dev
+```
 
 ### Run tests
 
