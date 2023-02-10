@@ -122,7 +122,6 @@ Using Https:
   https://github.com/Alejandroq12/full-stack-application.git
 ```
 
-Example command:
 
 Go to folder /backend and run:
 ```
