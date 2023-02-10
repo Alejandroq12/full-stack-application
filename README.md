@@ -60,7 +60,8 @@
   <ul>
     <li><a href="https://nextjs.org/">Next.js</a></li>
     <li><a href="https://graphql.org/">GraphQL</a></li>
-    
+    <li><a href="https://nodejs.org/en/">Node.js</a></li>
+
   </ul>
 </details>
 
