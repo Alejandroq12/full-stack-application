@@ -38,7 +38,7 @@
 
 > This is a full stack web aplication
 
-**[your_project__name]** is a...
+**[La Tiendita]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
