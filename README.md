@@ -214,9 +214,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[I will be a real store]**
+- [ ] **[I will make posible to group products by category]**
+- [ ] **[I will deploy this app with a personalized domain]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
