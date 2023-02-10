@@ -1,10 +1,10 @@
 import { useMutation } from '@apollo/client';
 import gql from 'graphql-tag';
+import Router from 'next/router';
 import useForm from '../lib/useForm';
 import Form from './styles/Form';
 import DisplayError from './ErrorMessage';
 import { ALL_PRODUCTS_QUERY } from './Products';
-import Router from 'next/router';
 
 const CREATE_PRODUCT_MUTATION = gql`
   mutation CREATE_PRODUCT_MUTATION(
@@ -56,14 +56,14 @@ export default function CreateProduct() {
         // Go to that product's page!
         Router.push({
           pathname: `/product/${res.data.createProduct.id}`,
-        })
+        });
       }}
     >
       <DisplayError error={error} />
       <fieldset disabled={loading} aria-busy={loading}>
         <label htmlFor="image">
           Image
-          <input 
+          <input
             required
             type="file"
             id="image"
