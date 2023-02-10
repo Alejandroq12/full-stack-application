@@ -111,6 +111,16 @@ Node.js version 16.9.0
 
 React 17.0
 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+Using Https:
+  https://github.com/Alejandroq12/full-stack-application.git
+```
+
 Example command:
 
 Go to folder /backend and run:
@@ -125,13 +135,6 @@ Go to folder /frontend and run:
  npm run dev
 ```
 
-### Setup
-
-Clone this repository to your desired folder:
-
-```
-  git clone git@github.com:myaccount/my-project.git
-```
 
 ### Install
 
