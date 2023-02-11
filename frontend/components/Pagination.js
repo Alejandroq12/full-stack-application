@@ -25,7 +25,9 @@ export default function Pagination({ page }) {
       <Head>
         <title>La tiendita - Page {page} of___</title>
       </Head>
-      <Link href={`/products/${page - 1}`}>⬅ Prev</Link>
+      <Link href={`/products/${page - 1}`}>
+        <a aria-disabled={page <= 1}>⬅ Prev</a>
+      </Link>
       <p>
         Page {page} of {pageCount}
       </p>
