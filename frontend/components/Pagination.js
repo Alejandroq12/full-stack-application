@@ -25,12 +25,12 @@ export default function Pagination({ page }) {
       <Head>
         <title>La tiendita - Page {page} of___</title>
       </Head>
-      <Link href="/">⬅ Prev</Link>
+      <Link href={`/products/${page - 1}`}>⬅ Prev</Link>
       <p>
-        Page { page } of {pageCount}
+        Page {page} of {pageCount}
       </p>
       <p>{count} Items Total</p>
-      <Link href="/">Next ➡</Link>
+      <Link href={`/products/${page + 1}`}>Next ➡</Link>
     </PaginationStyles>
   );
 }
