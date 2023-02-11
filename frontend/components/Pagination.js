@@ -19,14 +19,16 @@ export default function Pagination({ page }) {
   if (loading) return 'Loading...';
   if (error) return <DisplayError error={error} />;
   const { count } = data._allProductsMeta;
-  const pageCount = count / perPage;
+  const pageCount = Math.ceil(count / perPage);
   return (
     <PaginationStyles>
       <Head>
         <title>La tiendita - Page {page} of___</title>
       </Head>
       <Link href="/">⬅ Prev</Link>
-      <p>Page __ of {pageCount}</p>
+      <p>
+        Page { page } of {pageCount}
+      </p>
       <p>{count} Items Total</p>
       <Link href="/">Next ➡</Link>
     </PaginationStyles>
