@@ -23,7 +23,7 @@ export default function paginationField() {
       }
 
       if (items.length !== first) {
-        // We don't have any items, we must go to the network to fetch them.
+        // We don't have any items, we must go to the network to fetch them
         return false;
       }
       // If there are items, just return them from the cache, and we don't need to go to the network.
