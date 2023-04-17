@@ -15,6 +15,17 @@ export default function SignIn() {
             // onChange
           />
         </label>
+        <label htmlFor="password">
+          Password
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autoComplete="password"
+            // value
+            // onChange
+          />
+        </label>
       </fieldset>
     </Form>
   );
