@@ -1,8 +1,14 @@
 import Form from './styles/Form';
+import useForm from '../lib/useForm';
 
 export default function SignIn() {
+  const { inputs, handleChange, resetForm } = useForm({
+    email: '',
+    password: '',
+  });
   return (
-    <Form method="POST">
+    <Form method="POST" onSubmit={handleSubmit}>
+      <h2>Sign Into Your Account</h2>
       <fieldset>
         <label htmlFor="email">
           Email
@@ -11,8 +17,8 @@ export default function SignIn() {
             name="email"
             placeholder="Your Email Address"
             autoComplete="email"
-            // value
-            // onChange
+            value={inputs.email}
+            onChange={handleChange}
           />
         </label>
         <label htmlFor="password">
@@ -22,8 +28,8 @@ export default function SignIn() {
             name="password"
             placeholder="Password"
             autoComplete="password"
-            // value
-            // onChange
+            value={inputs.email}
+            onChange={handleChange}
           />
         </label>
         <button type="submit">Sign In!</button>
