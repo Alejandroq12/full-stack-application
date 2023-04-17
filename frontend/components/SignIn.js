@@ -1,11 +1,17 @@
 import Form from './styles/Form';
 import useForm from '../lib/useForm';
 
+
 export default function SignIn() {
   const { inputs, handleChange, resetForm } = useForm({
     email: '',
     password: '',
   });
+  function handleSubmit(e) {
+    e.preventDefault(); // stop the form from submitting
+    console.log(inputs);
+    // Send the email and password to the graphqlAPI
+  }
   return (
     <Form method="POST" onSubmit={handleSubmit}>
       <h2>Sign Into Your Account</h2>
@@ -28,7 +34,7 @@ export default function SignIn() {
             name="password"
             placeholder="Password"
             autoComplete="password"
-            value={inputs.email}
+            value={inputs.password}
             onChange={handleChange}
           />
         </label>
