@@ -26,6 +26,7 @@ export default function SignIn() {
             // onChange
           />
         </label>
+        <button type="submit">Sign In!</button>
       </fieldset>
     </Form>
   );
