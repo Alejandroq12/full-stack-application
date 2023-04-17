@@ -12,7 +12,7 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 La Tiendita ](#-la-tiendita-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -237,13 +237,13 @@ I would like to thank Kodigo because this boot camp is challenging me to learn p
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[Do I have to use Node.js version?]**
+- **[Do I have to use Node.js version 16.9.0?]**
 
   - [Yes, because some dependencies are not compatible with recent versions.]
 
 - **[Do I have to configure MongoDB?]**
 
-  - [Yes, specially if you want to have your data on the cloud. But yo can also use Mongo Compass in case you want to have you data locally.]
+  - [Yes, specially if you want to have your data on the cloud. But you can also use Mongo Compass in case you want to have your data locally.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
