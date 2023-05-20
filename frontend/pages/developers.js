@@ -2,11 +2,8 @@ import React from 'react';
 
 export default function Developers() {
   const developers = [
-    { name: 'Damaris', role: 'Full Stack Developer', image: 'Damaris.png' },
-    { name: 'Dani', role: 'Full Stack Developer', image: 'Dani.png' },
-    { name: 'Karla', role: 'Full Stack Developer', image: 'Karla.png' },
-    { name: 'Lizzie', role: 'Full Stack Developer', image: 'Lizzie.png' },
-    { name: 'Saraí', role: 'Full Stack Developer', image: 'Sarai.png' },
+    { name: 'Damaris', role: 'Full-Stack Web Developer', image: 'Damaris.png' },
+    { name: 'Julio', role: 'Full-Stack Web Developer', image: 'Julio.png' },
   ];
 
   return (
