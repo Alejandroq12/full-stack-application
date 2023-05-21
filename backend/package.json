@@ -48,6 +48,7 @@
     "mutations": "^0.0.9",
     "next": "^10.0.5",
     "nodemailer": "^6.4.17",
+    "npm-force-resolutions": "^0.0.10",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "stripe": "^8.130.0"
@@ -73,5 +74,8 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "resolutions": {
+    "postcss": "8.4.23"
+  }  
 }
