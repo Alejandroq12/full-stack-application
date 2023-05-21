@@ -46,7 +46,7 @@
     "dotenv": "^8.2.0",
     "keystone": "^4.2.1",
     "mutations": "^0.0.9",
-    "next": "^10.0.5",
+    "next": "^11.1.2",
     "nodemailer": "^6.4.17",
     "npm-force-resolutions": "^0.0.10",
     "react": "^16.14.0",
